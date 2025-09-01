@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6DEFE862E65A33E002B8833 /* .gitignore 2 in Resources */ = {isa = PBXBuildFile; fileRef = F6DEFE852E65A33E002B8833 /* .gitignore 2 */; };
+		F6DEFE862E65A33E002B8833 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F6DEFE852E65A33E002B8833 /* .gitignore */; };
 		F6DEFE892E65A4CE002B8833 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F6DEFE872E65A4A9002B8833 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F6DEFE852E65A33E002B8833 /* .gitignore 2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".gitignore 2"; sourceTree = "<group>"; };
+		F6DEFE852E65A33E002B8833 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F6DEFE872E65A4A9002B8833 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F6F8538D2E63222500E9286B /* Event_Management_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Event_Management_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -40,7 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				F6DEFE872E65A4A9002B8833 /* README.md */,
-				F6DEFE852E65A33E002B8833 /* .gitignore 2 */,
+				F6DEFE852E65A33E002B8833 /* .gitignore */,
 				F6F8538F2E63222500E9286B /* Event_Management_Task */,
 				F6F8538E2E63222500E9286B /* Products */,
 			);
@@ -119,7 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6DEFE892E65A4CE002B8833 /* README.md in Resources */,
-				F6DEFE862E65A33E002B8833 /* .gitignore 2 in Resources */,
+				F6DEFE862E65A33E002B8833 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
