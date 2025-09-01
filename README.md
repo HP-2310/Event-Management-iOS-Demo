@@ -1,5 +1,5 @@
 
-# Event Management Task (iOS Demo)
+# Event Management iOS Demo
 
 This project is a **SwiftUI-based iOS application** built as part of an iOS developer assessment.
 It demonstrates fetching, displaying, and interacting with event data from a remote API.
