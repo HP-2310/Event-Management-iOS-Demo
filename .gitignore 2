@@ -1,0 +1,42 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Xcode project user data
+*.xcworkspace
+*.xcuserdatad
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+
+# CocoaPods
+Pods/
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+/.build/
+/Package.resolved
+
+# Bundles & archives
+*.ipa
+*.xcarchive
+*.app
+
+# Logs
+*.log
+
+# Certificates, profiles, keys — DO NOT commit
+*.p12
+*.mobileprovision
+*.key
+.env
+Secrets.plist
+
+# Simulator
+*.simstate
+*.simruntime
