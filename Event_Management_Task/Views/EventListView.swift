@@ -44,7 +44,6 @@ struct EventListView: View {
                     }
                 }
             }
-            // ✅ Attach searchable here (to NavigationStack, not List)
             .searchable(text: $viewModel.query, prompt: "Search events")
             .onChange(of: viewModel.query) { _ in
                 viewModel.triggerSearch()
