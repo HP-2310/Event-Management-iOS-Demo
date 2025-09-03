@@ -36,9 +36,16 @@ class EventListViewModel: ObservableObject {
         
         isLoading = true
         
+        let newEvents = await APIService.shared.fetchEvents(page: page, query: forSearch ? query : nil)
+        
+        // To append new data on refresh
         if !reset {
-            events.append(contentsOf: events)
-        }
+            events.append(contentsOf: newEvents)
+
+        } //else {
+        // To assign new loaded events directly to the current array
+//            events = newEvents
+//        }
         
         page += 1
         isLoading = false
